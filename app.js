@@ -73,8 +73,12 @@ const menu = [
   },
 ];
 
+//get parent elements
 const sectionCenter = document.querySelector(".section-center");
+const btnContainer = document.querySelector(".btn-container");
+const filterBtn = document.querySelectorAll(".filter-btn");
 
+//display all items when page load
 window.addEventListener("DOMContentLoaded", function() {
   displayMenu(menu);
 });
